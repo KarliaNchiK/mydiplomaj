@@ -4,10 +4,10 @@
 
 <script>
 export default {
-  async fetch({store, axios}){
-    await store.dispatch("city/getcity")
-    await store.dispatch("branch/getbranch")
-  },
+  //async fetch({store, axios}){
+  //  await store.dispatch("city/getcity")
+  //  await store.dispatch("branch/getbranch")
+  //},
   async asyncData({ isMobile }) {
     return { component: isMobile ? "mobile" : "os" };
   },

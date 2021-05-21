@@ -5,12 +5,12 @@ const { Nuxt, Builder } = require('nuxt')
 const server = require('http').createServer(app)
 
 
-const get = require('./get.js')
-const post = require('./post.js')
-const put = require('./put.js')
-app.use(put);
-app.use(post);
-app.use(get);
+//const get = require('./get.js')
+//const post = require('./post.js')
+//const put = require('./put.js')
+//app.use(put);
+//app.use(post);
+//app.use(get);
 app.use('/Whoknowsheknows', express.static("uploads"))
 const config = require('../nuxt.config.js')
 config.dev = !(process.env.NODE_ENV === 'production')
