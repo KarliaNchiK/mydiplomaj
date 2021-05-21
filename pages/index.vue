@@ -3,6 +3,8 @@
 </template>
 
 <script>
+import os from "~/components/os/general/index"
+import mobile from "~/components/mobile/general/index"
 export default {
   //async fetch({store, axios}){
   //  await store.dispatch("city/getcity")
@@ -13,8 +15,8 @@ export default {
   },
   layout: ({ isMobile }) => (isMobile ? "mobile" : "default"),
   components: {
-    os: () => import("~/components/os/general/index"),
-    mobile: () => import("~/components/mobile/general/index"),
+    os,
+    mobile,
   },
   mounted() {
     if (process.client) {

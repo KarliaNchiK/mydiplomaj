@@ -81,7 +81,7 @@ export default {
         this.$refs.row.scrollTop ==
         this.$refs.row.scrollHeight - this.$refs.row.clientHeight
       ) {
-        this.$store.dispatch("city/getAddcity", this.city.length);
+        //this.$store.dispatch("city/getAddcity", this.city.length);
       }
     },
   },
@@ -99,9 +99,9 @@ export default {
     search_item: {
       handler: debounce(function () {
         if (this.search_item != "") {
-          this.$store.dispatch("city/getcityFil", this.search_item);
+          //this.$store.dispatch("city/getcityFil", this.search_item);
         } else {
-          this.$store.dispatch("city/getcity");
+          //this.$store.dispatch("city/getcity");
         }
       }, 500),
     },
