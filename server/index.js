@@ -11,7 +11,7 @@ const server = require('http').createServer(app)
 //app.use(put);
 //app.use(post);
 //app.use(get);
-app.use('/Whoknowsheknows', express.static("uploads"))
+//app.use('/Whoknowsheknows', express.static("uploads"))
 const config = require('../nuxt.config.js')
 config.dev = !(process.env.NODE_ENV === 'production')
 
