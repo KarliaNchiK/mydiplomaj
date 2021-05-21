@@ -34,15 +34,14 @@ module.exports = {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/vuetify
-    
+    '@nuxtjs/vuetify',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     'cookie-universal-nuxt',
     '@nuxtjs/axios',
-    'nuxt-vuex-localstorage',
-    '@nuxtjs/vuetify'
+    'nuxt-vuex-localstorage'
   ],
 
   router:{

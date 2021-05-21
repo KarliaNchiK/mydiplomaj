@@ -111,7 +111,7 @@
       </v-container>
     </v-navigation-drawer>
     <v-main class="offall">
-      <v-card color="backgr" tile flat height="100%">
+      <v-card color="grey lighten-3" tile flat height="100%">
         <v-container class="pa-0" fluid>
           <v-row no-gutters>
             <v-col cols="2">
